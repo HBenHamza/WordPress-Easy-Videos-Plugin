@@ -1,15 +1,8 @@
-=== Easy Videos ===
+=== Easy Videos @author Hatem Ben Hamza ===
 Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 5.6
 License: GPLv2 or later
-
-== Description ==
-
-
-### Plugin Features
-* 
-
 
 ### Easy Videos Settings
 * Your YouTube API KEY
