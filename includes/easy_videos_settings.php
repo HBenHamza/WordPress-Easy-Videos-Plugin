@@ -117,11 +117,11 @@ class easy_videos_settings {
 		}  
 
 		$endpoint_url = 'https://www.googleapis.com/youtube/v3/search';
-        $endpoint_url .= '?part=snippet';
-        $endpoint_url .= '&channelId='.get_option('eavid_channel_id').'';
-        $endpoint_url .= '&maxResults='.get_option('eavid_videos_count').'';
-        $endpoint_url .= '&type=video';
-        $endpoint_url .= '&key='.get_option('eavid_api_key').'';
+		$endpoint_url .= '?part=snippet';
+		$endpoint_url .= '&channelId='.get_option('eavid_channel_id').'';
+		$endpoint_url .= '&maxResults='.get_option('eavid_videos_count').'';
+		$endpoint_url .= '&type=video';
+		$endpoint_url .= '&key='.get_option('eavid_api_key').'';
 
 		$api_response = wp_remote_get( $endpoint_url, array( 'sslverify' => false ) );
 		$api_response_xml      = wp_remote_retrieve_body( $api_response );
